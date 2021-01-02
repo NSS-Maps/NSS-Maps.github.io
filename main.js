@@ -58,7 +58,7 @@ function mapCollectionHtml(collection) {
     collection.maps
       .map(m => `
         <section class="map">
-          <a href="${m.path} target="_new">${m.name}</a>
+          <a href="${m.path}" target="_new">${m.name}</a>
         </section>`)
       .join('')
   );
