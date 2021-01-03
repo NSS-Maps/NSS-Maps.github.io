@@ -25,10 +25,13 @@ jobs:
 
       - name: Commit index.html
         run: |
-          git config --local user.email "build-html-bot@users.noreply.github.com"
-          git config --local user.name "build-html-bot"
-          git add index.html
-          git commit -m "(re)built index.html due to repo updates"
+          if [[ -n $(git status -s) ]];
+          then
+            git config --local user.email "build-html-bot@users.noreply.github.com"
+            git config --local user.name "build-html-bot"
+            git add index.html
+            git commit -m "(re)built index.html due to repo updates"
+          fi
 
       - name: Push changes
         uses: ad-m/github-push-action@master
