@@ -1,6 +1,8 @@
 {
     "cSpell.words": [
         "Octokit",
+        "TMPL",
         "octikit"
-    ]
+    ],
+    "python.formatting.provider": "black"
 }
