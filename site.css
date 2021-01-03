@@ -21,7 +21,7 @@ body {
 }
 
 #map-collections {
-  margin: 24px 128px;
+  margin: 24px 15%;
   font-size: 2em;
 }
 
@@ -40,13 +40,18 @@ body {
 }
 
 .card {
-  margin: 8px 16px;
+  margin: 16px 16px 8px 16px;
+  padding: 8px;
+  border: 1px outset #cececf;
 }
+
 a {
   color: #f68b1f;
   text-decoration: none;
   font-size: 1rem;
   transition: color 0.1s linear;
+  width: 100%;
+  display: inline-block;
 }
 
 a:hover {
@@ -57,5 +62,5 @@ a:hover {
 .description {
   color: #939598;
   font-size: 0.9rem;
-  border: 1px solid #cececf;
+  /* border: 1px solid #cececf; */
 }
