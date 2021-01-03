@@ -23,7 +23,7 @@ jobs:
       - name: Run 'build_html.py'
         run: python ./.github/scripts/build_html.py
 
-      - name: Commit index.html
+      - name: Commit index.html (if it actually changed)
         run: |
           if [[ -n $(git status -s) ]];
           then

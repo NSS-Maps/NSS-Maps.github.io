@@ -1,0 +1,55 @@
+/*
+orange #f68b1f
+gray #939598
+another gray #cececf;
+a good gray #e9e9e9
+*/
+
+body {
+  background-color: #e9e9e9;
+  margin: 0;
+}
+
+#site-header {
+  background-color: white;
+  margin: 0;
+  padding: 16px;
+  text-align: center;
+  font-size: 2em;
+  color: #939598;
+  border-bottom: 4px solid #f68b1f;
+}
+
+#map-collections {
+  margin: 24px 64px;
+  font-size: 2em;
+}
+
+#map-collections > .collection {
+  background-color: white;
+  margin: 8px 0;
+}
+
+.collection {
+  font-size: 0.8em;
+  padding: 16px;
+}
+
+.collection__header {
+  border-bottom: 1px solid #cececf;
+}
+
+.card {
+  margin: 8px 16px;
+}
+a {
+  color: #f68b1f;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.1s linear;
+}
+
+a:hover {
+  color: #939598;
+  text-decoration: none;
+}
