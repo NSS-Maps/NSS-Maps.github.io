@@ -24,6 +24,7 @@ jobs:
         run: python ./.github/scripts/build_html.py
 
       - name: Commit index.html
+        run: |
           git config --local user.email "build-html-bot@users.noreply.github.com"
           git config --local user.name "build-html-bot"
           git add index.html
