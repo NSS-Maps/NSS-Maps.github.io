@@ -13,7 +13,7 @@ body {
 #site-header {
   background-color: white;
   margin: 0;
-  padding: 16px;
+  padding: 24px;
   text-align: center;
   font-size: 2em;
   color: #939598;
@@ -21,7 +21,7 @@ body {
 }
 
 #map-collections {
-  margin: 24px 64px;
+  margin: 24px 128px;
   font-size: 2em;
 }
 
@@ -52,4 +52,10 @@ a {
 a:hover {
   color: #939598;
   text-decoration: none;
+}
+
+.description {
+  color: #939598;
+  font-size: 0.9rem;
+  border: 1px solid #cececf;
 }
